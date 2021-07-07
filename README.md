@@ -39,5 +39,6 @@ PHP 4.4.9 (cgi-fcgi) (built: Jul  7 2021 08:35:36)
 Copyright (c) 1997-2008 The PHP Group
 Zend Engine v1.3.0, Copyright (c) 1998-2004 Zend Technologies
 root@a10170a7a183:/php-build/php-4.4.9#
-```
  => [internal] load .dockerignore                                                                                                                                                                      0.1s
+```
+[![asciicast](https://asciinema.org/a/DNCPa1aBOYJ9ZIQoxW3m6O2Ma.svg)](https://asciinema.org/a/DNCPa1aBOYJ9ZIQoxW3m6O2Ma)
