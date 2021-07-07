@@ -1,0 +1,5 @@
+version: "0.1"
+services: 
+    php449:
+        build: .
+        stdin_open: true
