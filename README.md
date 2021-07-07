@@ -1,7 +1,7 @@
 # docker-php4
 PHP 4.4.9 in a Docker container for apple-m1 with Apache 2
 ```console
-➜  docker-php4 git:(master) ✗ docker-compose down && docker-compose up -d --build && docker-compose exec php449 uname -a && php --version
+➜  docker-php4 git:(master) ✗ docker-compose down && docker-compose up -d --build && docker-compose exec php449 bash
 [+] Running 2/2
  ⠿ Container docker-php4_php449_1  Removed                                                                                                                                                            10.5s
  ⠿ Network docker-php4_default     Removed                                                                                                                                                             4.2s
@@ -33,14 +33,11 @@ PHP 4.4.9 in a Docker container for apple-m1 with Apache 2
 [+] Running 2/2
  ⠿ Network docker-php4_default     Created                                                                                                                                                             6.0s
  ⠿ Container docker-php4_php449_1  Started                                                                                                                                                             4.2s
+root@a10170a7a183:/php-build/php-4.4.9# uname -a && php --version
 Linux a10170a7a183 5.10.25-linuxkit #1 SMP PREEMPT Tue Mar 23 09:24:45 UTC 2021 aarch64 GNU/Linux
-WARNING: PHP is not recommended
-PHP is included in macOS for compatibility with legacy software.
-Future versions of macOS will not include PHP.
-PHP 7.3.24-(to be removed in future macOS) (cli) (built: May  8 2021 09:40:34) ( NTS )
-Copyright (c) 1997-2018 The PHP Group
-Zend Engine v3.3.24, Copyright (c) 1998-2018 Zend Technologies
-➜  docker-php4 git:(master) ✗
-➜  docker-php4
+PHP 4.4.9 (cgi-fcgi) (built: Jul  7 2021 08:35:36)
+Copyright (c) 1997-2008 The PHP Group
+Zend Engine v1.3.0, Copyright (c) 1998-2004 Zend Technologies
+root@a10170a7a183:/php-build/php-4.4.9#
 ```
  => [internal] load .dockerignore                                                                                                                                                                      0.1s
